@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="14.246">
+    <testcase classname="validate end to end testing of login page" name="fetch login page title" time="0.168">
+        <system-out>
+            <![CDATA[Given login page open properly..............................................passed
+Then fetch login page title.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validate end to end testing of login page" name="do negative login" time="2.754">
+        <system-out>
+            <![CDATA[Given enter email id as "abc@gmail.com".....................................passed
+And enter password as "abc".................................................passed
+When click on submit button.................................................passed
+Then fetch error message....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validate end to end testing of login page" name="validate forgot password link" time="4.691">
+        <system-out>
+            <![CDATA[Given login page open properly..............................................passed
+And click on forgot password link...........................................passed
+When forgot password page display...........................................passed
+And fetch current page title................................................passed
+And fetch the instruction text..............................................passed
+Then enter email address as "abc@gmail.com".................................passed
+And click on reset button...................................................passed
+And fetch success message appear on the screen..............................passed
+And click on Login Now button...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validate end to end testing of login page" name="validate Login Now button on forgot password page" time="6.295">
+        <system-out>
+            <![CDATA[Given login page open properly..............................................passed
+And click on forgot password link...........................................passed
+When forgot password page display...........................................passed
+And fetch current page title................................................passed
+Then fetch the instruction text.............................................passed
+And click on Login Now button...............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

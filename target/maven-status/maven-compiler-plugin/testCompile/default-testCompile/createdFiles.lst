@@ -1,0 +1,4 @@
+testRunner\EdgeTest.class
+Steps\LoginPageSteps.class
+testRunner\OperaTest.class
+testRunner\ChromeTest.class
