@@ -1,7 +1,0 @@
-fetchExcel\ReadExcelWorkBook.class
-pages\LoginPageAction.class
-basePage\BasePage.class
-fetchExcel\ReadExcelCellValue.class
-fetchExcel\ReadExcelSheet.class
-fetchLocators\LoginPageLocators.class
-Hooks\environment.class
