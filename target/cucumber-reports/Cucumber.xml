@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="6.904">
+    <testcase classname="validate end to end testing of login page" name="fetch login page title" time="0.431">
+        <system-out>
+            <![CDATA[Given login page open properly..............................................passed
+Then fetch login page title.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validate end to end testing of login page" name="do blank login" time="2.005">
+        <system-out>
+            <![CDATA[When click on submit button.................................................passed
+Then fetch error message....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validate end to end testing of login page" name="do negative login" time="0.92">
+        <system-out>
+            <![CDATA[Given enter email id as "abc@gmail.com".....................................passed
+And enter password as "abc".................................................passed
+When click on submit button.................................................passed
+Then fetch error message....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validate end to end testing of login page" name="validate forgot password link" time="1.699">
+        <system-out>
+            <![CDATA[Given login page open properly..............................................passed
+And click on forgot password link...........................................passed
+When forgot password page display...........................................passed
+And fetch current page title................................................passed
+And fetch the instruction text..............................................passed
+Then enter email address as "abc@gmail.com".................................passed
+And click on reset button...................................................passed
+And fetch success message appear on the screen..............................passed
+And click on Login Now button...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validate end to end testing of login page" name="validate Login Now button on forgot password page" time="0.874">
+        <system-out>
+            <![CDATA[Given login page open properly..............................................passed
+And click on forgot password link...........................................passed
+When forgot password page display...........................................passed
+And fetch current page title................................................passed
+Then fetch the instruction text.............................................passed
+And click on Login Now button...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validate end to end testing of login page" name="get dox connex link" time="0.189">
+        <system-out>
+            <![CDATA[Given login page open properly..............................................passed
+When doxa connex image display..............................................passed
+Then get doxa connex link...................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

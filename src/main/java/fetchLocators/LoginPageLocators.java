@@ -9,11 +9,9 @@ public class LoginPageLocators {
 	public String getUserName() throws Throwable {
 		return rcv.LoginPageCellValue(1, 1);
 	}
-	
 	public String getPassword() throws Throwable {
 		return rcv.LoginPageCellValue(2, 1);
 	}
-	
 	public String getSubmitButton() throws Throwable {
 		return rcv.LoginPageCellValue(3, 1);
 	}
@@ -38,5 +36,8 @@ public class LoginPageLocators {
 	}
 	public String getResetPasswordSuccessMessage() throws Throwable {
 		return rcv.LoginPageCellValue(10, 1);
+	}
+	public String getDoxaConnexLink() throws Throwable {
+		return rcv.LoginPageCellValue(11, 1);
 	}
 }

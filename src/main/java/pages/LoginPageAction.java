@@ -38,4 +38,10 @@ public class LoginPageAction {
 	public void clickLoginNowButton() throws Throwable {
 		bp.clickElement(lpl.getLoginNowButton());
 	}
+	public void doxaConnexLink() throws Throwable {
+		System.out.println(bp.getElementLink(lpl.getDoxaConnexLink()));
+	}
+	public boolean verifyDoxaLink() throws Throwable {
+		return bp.getDisplayElement(lpl.getDoxaConnexLink());
+	}
 }

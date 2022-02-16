@@ -28,4 +28,7 @@ public class BasePage {
 	public String getElementText(String xpathValue) {
 		return getElement(xpathValue).getText();
 	}
+	public String getElementLink(String xpathValue) {
+		return getElement(xpathValue).getAttribute("href");
+	}
 }

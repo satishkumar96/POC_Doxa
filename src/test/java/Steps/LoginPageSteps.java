@@ -1,5 +1,7 @@
 package Steps;
 
+import org.junit.Assert;
+
 import Hooks.environment;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -76,4 +78,14 @@ public class LoginPageSteps {
 	public void click_on_login_now_button() throws Throwable {
 		lpa.clickLoginNowButton();
 	}
+	@When("doxa connex image display")
+	public void doxa_connex_image_display() throws Throwable {
+		Assert.assertTrue(lpa.verifyDoxaLink());
+	}
+
+	@Then("get doxa connex link")
+	public void get_doxa_connex_link() throws Throwable {
+		lpa.doxaConnexLink();
+	}
+	
 }
